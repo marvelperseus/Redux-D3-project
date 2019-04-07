@@ -1,0 +1,75 @@
+/* Changes to the Semantic UI */
+
+.ui.menu.fixed {
+    width: calc(100% - 300px);
+}
+
+.ui.massive.menu {
+    font-size: 1.1rem;
+    min-height: 4rem;
+}
+
+.ui.menu .item:before {
+    content: none;
+}
+
+.ui.dropdown > .text {
+    color: #092441 !important;
+}
+
+.ui.dropdown > i {
+    color: #092441 !important;
+    margin-left: 0.25rem;
+}
+
+/* Custom styling */
+
+.instant-chat {
+    font-size: 1.1rem !important;
+    min-width: 40%;
+}
+
+.instant-chat input {
+    color: #092441 !important;
+    margin-left: 0.25rem !important;
+    padding-left: 0px !important;
+    border-width: 0 0 1.5px !important;
+    border-color: #092441 !important;
+    border-radius: 0px !important;
+}
+
+.instant-chat input::placeholder {
+    color: #092441 !important;
+}
+
+.instant-chat i {
+    color: #092441 !important;
+    font-size: 1.35rem !important;
+}
+
+.upper-corner {
+    bottom: auto !important;
+}
+
+.notification > i:first-child {
+    font-size: 1.35rem !important;
+    color: #092441 !important;
+}
+
+.notification-sign {
+    font-size: 0.55rem !important;
+    color: #4cbdf9 !important;
+}
+
+.header-divider {
+    margin: 0 1.1rem 0 1.1rem;
+    border-left: 0.75px solid #bcbcbc;
+    border-right: 0.75px solid #bcbcbc;
+    height: 1.75rem;
+}
+
+.active-user {
+    font-size: 1.35rem !important;
+    color: #092441 !important;
+    margin-left: 0.4rem !important;
+}

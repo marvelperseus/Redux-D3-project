@@ -1,0 +1,35 @@
+.element {
+  fill: lightgrey;
+  stroke: grey;
+  shape-rendering: crispEdges;
+}
+
+.strat-graph {
+  .strat-border {
+    stroke: #000000;
+  }
+  .strat-box {
+    stroke: grey;
+    stroke-width: 0.5px;
+  }
+  .strat-label {
+    fill: #000000;
+    text-anchor: middle;
+    font-size: 0.7rem;
+  }
+  .strat-axis-label {
+    fill: #5D6971;
+    font-size: 10px;
+  }
+  .strat-axis-label-y1 {
+    text-anchor: end;
+  }
+}
+
+.graphs.burial,
+.graphs.thermal,
+.graphs.uep {
+  .strat-graph .dragging-rect {
+    cursor: pointer;
+  }
+}

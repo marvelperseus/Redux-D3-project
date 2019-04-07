@@ -1,0 +1,34 @@
+$offset: 4rem;
+#hummingbird-app-main {
+    min-height: 100%;  
+    position: relative;
+    margin-left: 0.3rem;
+}
+.center {
+    margin: auto;
+    width: 100%;
+}
+.header-smaller{
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.error-color{
+    background-color: $bt_multiline_lightblue;
+    color: $bt_multiline_crimson;
+    display: inline-block;
+    padding: 5px;
+}
+.nextGraph{
+    padding-top: 25px;
+    margin-top: 10px;
+}
+.reset-button{
+    margin-left: 10px;
+    float: right;
+}
+.crop-selection,
+.crop-outsider {
+    cursor: zoom-in;
+}

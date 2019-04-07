@@ -1,0 +1,35 @@
+.uepaxis-graph {
+  .uepaxis-axis-label {
+    fill: #5D6971;
+    font-size: 10px;
+    text-anchor: end;
+  }
+  .uepaxis-axis-bold {
+    .domain {
+      stroke-width: 2px;
+    }
+    .tick line {
+      stroke-width: 2px;
+    }
+    .tick text {
+      font-weight: bold;
+    }
+  }
+  .uepaxis-label-circle {
+    fill: none;
+    stroke: #000000;
+    cursor: pointer;
+  }
+  .uepaxis-label-circle-bold {
+    fill: #000000;
+  }
+  .uepaxis-label {
+    fill: #5D6971;
+    font-size: 10px;
+    text-anchor: middle;
+    cursor: pointer;
+  }
+  .uepaxis-label-bold {
+    fill: #FFFFFF;
+  }
+}

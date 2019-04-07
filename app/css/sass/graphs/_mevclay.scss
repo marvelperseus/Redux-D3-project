@@ -1,0 +1,29 @@
+.mev-clay-graph {
+    .mevclay-curve {
+        stroke: #617db2;
+        stroke-width: 2px;
+        fill: none;
+    }
+    .mevclay-area {
+        fill: #cbd2e2;
+    }
+    .mevclay-backrect {
+        fill: #eaeaf1;
+    }
+    .mevclay-axis {
+        path.domain {
+            display: none;
+        }
+        .tick text {
+            display: none;
+        }
+        .tick line {
+            stroke: #ffffff;
+            stroke-width: 2px;
+        }
+    }
+    .mevclay-border {
+        stroke: #636363;
+        stroke-width: 1px;
+    }
+}

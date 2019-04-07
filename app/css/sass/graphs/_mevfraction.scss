@@ -1,0 +1,53 @@
+.mev-fraction-graph {
+    .mevfraction-curve {
+        stroke: #707070;
+        stroke-width: 1.5px;
+        fill: none;
+    }
+    .mevfraction-curve-wider {
+        stroke: #707070;
+        stroke-opacity: 0;
+        stroke-width: 10px;
+        fill: none;
+    }
+    .mevfraction-curve-selected {
+        stroke: #FF0000;
+        stroke-width: 2px;
+    }
+    .mevfraction-curve-bold {
+        stroke: #000000;
+        stroke-width: 2px;
+    }
+    .mevfraction-area {
+        fill: #bec8e2;
+        fill-opacity: 0.6;
+    }
+    .mevfraction-axis {
+        path.domain {
+            display: none;
+        }
+        .tick line {
+            stroke: #E0E0E0;
+        }
+    }
+    .mevfraction-axis-y {
+        .tick text {
+            display: none;
+        }
+    }
+    .mevfraction-axis-x {
+        .tick text {
+            font-size: 11px;
+            color: #000000;
+        }
+    }
+    .mevfraction-axis-label {
+        fill: #000000;
+        text-anchor: middle;
+        font-size: 12px;
+    }
+    .mevfraction-border {
+        stroke: #636363;
+        stroke-width: 1px;
+    }
+}

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The top level component render renders the <Main/> component 1`] = `
+<div
+  id="hummingbird-app-main"
+>
+  <Nav />
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <SideNav />
+      <main
+        className="col-md-10 ml-sm-auto col-lg-10 px-4"
+        role="main"
+      >
+        <Switch>
+          <Route
+            exact={true}
+            path="/graphs"
+            render={[Function]}
+          />
+          <Redirect
+            push={false}
+            to="/graphs"
+          />
+        </Switch>
+      </main>
+    </div>
+  </div>
+</div>
+`;

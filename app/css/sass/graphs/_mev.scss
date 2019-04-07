@@ -1,0 +1,78 @@
+.mev-graphs {
+    .mode-switch {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .mode-switch-label {
+            color: #9ca7b4 !important;
+            font-size: 18px;
+        }
+        .mode-switch-label-bold {
+            color: #162a45 !important;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .ui.toggle.checkbox {
+            height: 21px;
+            margin: 0px 10px;
+        }
+
+        .ui.toggle.checkbox label:before,
+        .ui.checked.toggle.checkbox label:before {
+            background-color: #8996a5 !important;
+        }
+
+        .ui.toggle.checkbox label:after,
+        .ui.checked.toggle.checkbox label:after {
+            background-color: #162a45 !important;
+        }
+    }
+
+    .mev-graphs-left {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        .mevaxis-graph {
+            display: inline-block;
+        }
+    }
+
+    .mev-graphs-model-name {
+        border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        height: 40px;
+        margin-bottom: 9px;
+        text-transform: capitalize;
+        position: absolute;
+        width: 40%;
+    }
+
+    .mev-graphs-model-name.no-border-bottom {
+        border-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .mev-graphs-right {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        padding-top: 50px;
+
+        .mev-fraction-graph {
+            overflow: visible;
+        }
+        .graph-body {
+            overflow: visible;
+        }
+    }
+}

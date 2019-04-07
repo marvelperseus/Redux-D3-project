@@ -1,0 +1,100 @@
+{
+  "name": "Hummingbird",
+  "main": "electronApp/main.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.1.0",
+    "d3": "^5.7.0",
+    "dotenv": "^4.0.0",
+    "inline-manifest-webpack-plugin": "^3.0.1",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-draggable": "^3.1.1",
+    "react-intl": "^2.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^6.3.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "semantic-ui-react": "^0.84.0"
+  },
+  "devDependencies": {
+    "@anilanar/moxios": "^0.8.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "body-parser": "^1.18.2",
+    "compression-webpack-plugin": "^1.1.11",
+    "copy-webpack-plugin": "4.5.1",
+    "css-loader": "^0.28.0",
+    "electron": "^3.0.2",
+    "electron-packager": "^12.2.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "imports-loader": "^0.7.1",
+    "jest": "^22.4.3",
+    "jest-environment-enzyme": "^6.0.1",
+    "jest-enzyme": "^6.0.1",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "react-hot-loader": "4.3.3",
+    "react-scripts": "0.9.5",
+    "redux-mock-store": "^1.5.3",
+    "regenerator-runtime": "^0.11.1",
+    "sass-loader": "^7.0.1",
+    "sinon": "^5.0.10",
+    "style-loader": "^0.16.1",
+    "testcafe": "^0.22.0",
+    "uglify-js-brunch": "^2.10.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.20.2",
+    "webpack-bundle-analyzer": "^2.12.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-combine-loaders": "2.0.3",
+    "webpack-dashboard": "^2.0.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-merge": "4.1.0"
+  },
+  "scripts": {
+    "test": "jest --colors --verbose",
+    "test:watch": "jest --watch  --colors --verbose ",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "start": "eslint app && webpack-dashboard -t 'dashboard' -- webpack-dev-server --colors --inline --hot  --config webpack/dev.js  ",
+    "build": "eslint app && webpack --mode production -p  --config webpack/prod.js --display-error-details",
+    "installer": "electron-packager --overwrite . --out=release-builds"
+  },
+  "jest": {
+    "testRegex": "-test\\.js$",
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/enzymeconfig.js",
+    "testEnvironment": "enzyme",
+    "testEnvironmentOptions": {
+      "enzymeAdapter": "react16"
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/build/",
+      "/release-builds/"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "testURL": "http://localhost"
+  }
+}

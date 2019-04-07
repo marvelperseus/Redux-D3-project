@@ -1,0 +1,28 @@
+.vertical-chart-wrapper, .mvd-chart-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line-svg{
+}
+.vertical-line-svg .overlay {
+  fill: none;
+  pointer-events: all;
+}
+.axis {
+    font: 0.7rem sans-serif;
+}
+.line {
+  fill: none;
+  stroke: $bt_vertical_line_stroke;
+  stroke-width: 3px;
+}
+.label {
+  background-color: $bt_white;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.zero {
+  stroke: $bt_light_gray;
+  stroke-width: 1px;
+}

@@ -1,0 +1,72 @@
+{
+  "Holocene": {
+    "end_age_Ma": 0.0,
+    "begin_age_Ma": 0.017,
+    "color": "#fef2e0"
+  },
+  "Pleistocene": {
+    "end_age_Ma": 0.017,
+    "begin_age_Ma": 2.58,
+    "color": "#fff2ae"
+  },
+  "Pliocene": {
+    "end_age_Ma": 2.58,
+    "begin_age_Ma": 5.333,
+    "color": "#ffff99"
+  },
+  "Miocene": {
+    "end_age_Ma": 5.333,
+    "begin_age_Ma": 23.03,
+    "color": "#ffff00"
+  },
+  "Oligocene": {
+    "end_age_Ma": 23.03,
+    "begin_age_Ma": 33.9,
+    "color": "#fdc07a"
+  },
+  "Eocene": {
+    "end_age_Ma": 33.9,
+    "begin_age_Ma": 56.0,
+    "color": "#fdb46c"
+  },
+  "Paleocene": {
+    "end_age_Ma": 56.0,
+    "begin_age_Ma": 66.0,
+    "color": "#fda75f"
+  },
+  "Upper Cretaceous": {
+    "end_age_Ma": 66.0,
+    "begin_age_Ma": 100.5,
+    "color": "#a6d84a"
+  },
+  "Lower Cretaceous": {
+    "end_age_Ma": 100.5,
+    "begin_age_Ma": 145.0,
+    "color": "#8ccd57"
+  },
+  "Upper Jurassic": {
+    "end_age_Ma": 145.0,
+    "begin_age_Ma": 163.5,
+    "color": "#b3e3ee"
+  },
+  "Middle Jurassic": {
+    "end_age_Ma": 163.5,
+    "begin_age_Ma": 174.1,
+    "color": "#80cfd8"
+  },
+  "Lower Jurassic": {
+    "end_age_Ma": 174.1,
+    "begin_age_Ma": 201.3,
+    "color": "#42aed0"
+  },
+  "Upper Triassic": {
+    "end_age_Ma": 201.3,
+    "begin_age_Ma": 237.0,
+    "color": "#BD8CC3"
+  },
+  "Middle Triassic": {
+    "end_age_Ma": 237.0,
+    "begin_age_Ma": 247.2,
+    "color": "#B168B199"
+  }
+}

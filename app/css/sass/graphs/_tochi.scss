@@ -1,0 +1,47 @@
+.tochi-graph {
+  .tochi-border {
+    stroke: #636363;
+  }
+  .tochi-formation-line {
+    stroke: #636363;
+  }
+  .tochi-axis {
+    path.domain {
+      visibility: hidden;
+    }
+  }
+  .tochi-axis-x {
+    line {
+      stroke: #636363;
+    }
+  }
+  .tochi-axis-y {
+    line {
+      stroke: #E0E0E0;
+    }
+  }
+  .tochi-vline {
+    stroke: #E0E0E0;
+  }
+  .toc-x-point,
+  .toc-x0-point {
+    fill: #0826f5;
+  }
+  .hi-x-point,
+  .hi-x0-point {
+    fill: #f3a93c;
+  }
+  .point-opacity {
+    fill-opacity: 0.3;
+  }
+  .tochi-legend-box {
+    fill: none;
+    stroke: #777777;
+  }
+  .tochi-legend-point-toc {
+    fill: #0826f5;
+  }
+  .tochi-legend-point-hi {
+    fill: #f3a93c;
+  }
+}

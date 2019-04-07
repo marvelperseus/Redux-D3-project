@@ -1,0 +1,64 @@
+.areayield-graph {
+  overflow: visible !important;
+  .graph-body,
+  .graph-body svg {
+    overflow: visible;
+  }
+
+  .areayield-border {
+    stroke: #636363;
+  }
+  .areayield-formation-line {
+    stroke: #636363;
+  }
+  .areayield-axis {
+    line {
+      stroke: #E0E0E0;
+    }
+    path.domain {
+      visibility: hidden;
+    }
+  }
+  .areayield-box-oil {
+    fill: #75CB5D;
+    fill-opacity: 0.8;
+    stroke: #000000;
+    stroke-width: 0.5px;
+    stroke-opacity: 1;
+  }
+  .areayield-box-gas {
+    fill: #D13B40;
+    fill-opacity: 0.8;
+    stroke: #000000;
+    stroke-width: 0.5px;
+    stroke-opacity: 1;
+  }
+  .areayield-box-opacity {
+    fill-opacity: 0.3;
+    stroke-opacity: 0.3;
+  }
+  .areayield-legend-box {
+    fill: none;
+    stroke: #777777;
+  }
+  .areayield-legend-oil-rect {
+    fill: #75CB5D;
+    stroke: #000000;
+    stroke-width: 0.5px;
+  }
+  .areayield-legend-oil-label {
+    fill: #75CB5D;
+    text-anchor: middle;
+    font-size: 11px;
+  }
+  .areayield-legend-gas-rect {
+    fill: #D13B40;
+    stroke: #000000;
+    stroke-width: 0.5px;
+  }
+  .areayield-legend-gas-label {
+    fill: #D13B40;
+    text-anchor: middle;
+    font-size: 11px;
+  }
+}

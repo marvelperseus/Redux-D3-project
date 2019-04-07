@@ -1,0 +1,29 @@
+.expulsionsummary-graph {
+  .expulsionsummary-border {
+    stroke: #636363;
+  }
+  .expulsionsummary-axis {
+    line {
+      stroke: #636363;
+    }
+    path.domain {
+      stroke: #636363;
+    }
+  }
+  .expulsionsummary-vline {
+    stroke: #E0E0E0;
+  }
+  .expulsionsummary-hline {
+    stroke: #E0E0E0;
+  }
+  .area-oil {
+    fill: #75CB5D;
+  }
+  .area-gas {
+    fill: #D13B40;
+  }
+  .expulsionsummary-axis-label {
+    fill: #000000;
+    text-anchor: middle;
+  }
+}
